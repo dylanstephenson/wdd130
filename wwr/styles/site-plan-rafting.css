@@ -10,7 +10,9 @@ Fonts are separated by a & */
   --secondary-color: #1C72B0 ;
   --accent1-color: #F2F254;
   --accent2-color: #FDF7FA;
-
+  --accent3-color: #FF5C5C;
+  --accent4-color: #FF8585;
+  
   /* change the values below to your chosen font(s) */
   --heading-font: 'Stick';
   --paragraph-font: 'Josefin Sans', Helvetica, sans-serif;
