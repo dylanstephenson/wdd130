@@ -1,51 +1,36 @@
 * {
-    background-color: #fa9ac1;
+    background-color: rgb(85, 83, 83);
 }
-header {
-    color: white;
+body {
+    margin: 0;
+    padding: 0;
+}
+main img {
+    margin: 0 auto;
+    width: 100%;
+}
+footer {
+    background-color: rgb(85, 83, 83);
+    margin: 0px 0;
+    text-align:center;
+}
+.circle_img img {
+    border-radius: 50%;
+    width: 300px;
+    margin: 80px;
+    border-width: 0px;
+}
+#desk {
+    border: 12px solid rgba(8, 9, 9, 0.36);
+    width: 15em;
     text-align: center;
 }
-h1 {
-    font-size: 4em;
-    font-weight: 700;
-}
-#quote {
-    font-size: 1em;
-    width: 35%;
-    margin: 0 auto;
-}
-#name {
-    font-weight: 700;
-    padding: 10px;
-}
-main ol {
-    font-weight: 700;
-    font-size: 1.3em;
-    width: 32%;
-    text-align: left;
-    margin: 0 auto;
-    padding: 20px;
-}
-li {
-    margin: 10px 0;
-}
-img {
-    max-width: 18%;
-    display: block;
-    margin: 0 auto;
-}
-main p {
-    margin: 50px auto;
-    color: white;
-    width: 30%;
-    font-size: 3em;
-    font-weight: 500;
+#logo {
+    border: 12px solid rgba(8, 9, 9, 0.36);
+    width: 15em;
     text-align: center;
 }
-footer p {
-    text-align: center;
-    width: 30%;
-    margin: 30px auto;
-    font-weight: 500;
-    font-size: 1.2em;
+#person {
+    border: 12px solid rgba(8, 9, 9, 0.36);
+    width: 15em;
 }
