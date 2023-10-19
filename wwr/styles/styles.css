@@ -98,6 +98,9 @@ main section img {
     width: 80px;
     padding-top: 10px;
 }
+.ridges {
+    padding: 100px;
+}
 .msg {
     background-color: #56A04B;
     line-height: 2em;
@@ -111,6 +114,7 @@ main section img {
     margin: 100px;
 }
 footer {
+    background-color: #a6df9e;
     color: darkolivegreen;
     padding: 25px 50px;
     margin-top: 100px;
