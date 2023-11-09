@@ -203,6 +203,7 @@ footer a:hover {
 #faq-content {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    max-width: 1600px;
 }
 .FAQ-nav {
     background-color: #143210;
