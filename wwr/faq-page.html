@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewatever Rafting Trip | RiverRafting | FAQ</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="FAQ-nav">
+        <a id="logo-link" href="index.html">
+            <img class="logo" src="images/better_logo.png" alt="RiverRafting Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="faq-page.html">FAQ</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main id="faq-content">
+        <h1 id="page-header">
+            Get Answers to your Questions
+        </h1>
+        <div id="faq-hero">
+            <img src="images/FAQpic.jpg" alt="rafting">
+        </div>
+        <article class="faq-box">
+            <h2>RiverRafting Frequently Asked Questions</h2>
+        <div id="question-box">
+            <h3 class="group-1">What is so great about whitewater rafting?</h3>
+            <p class="group-p1">Are you kidding me! What's not great about whitewater rafting!...Let's describe a common day 
+                    on the river. Arise in the soft light of the early morning after a night spent sleeping under 
+                    a beautiful starry sky. Have a hearty warm breakfast of fresh blueberry pancakes or omelets 
+                    to order, then pack your things and prepare for the day. The day is filled with some combination 
+                    of swift water, rapids, calms, hikes, history, geology, stories, and more good food. We try to 
+                    hit camp around 4 or 5, after setting up your cot you can relax with a good book or good company 
+                    by the river, or explore around camp while your guides prepare your dinner...something perhaps 
+                    like steak and potatoes, or grilled salmon...and dutch oven brownies...you won't forget the 
+                    dutch oven brownies. After dinner it's more relaxing, and you might even be able to talk your 
+                    guide into another story or two to send you off to bed under more stars than you thought were possible.</p>
+            <h3 class="group-2">Is this a good trip for kids?</h3>
+            <p class="group-p2">Absolutely this is a good trip for children of all ages. We have found however that children over 
+                    the age of 8 seem to enjoy it more overall (And parents especially enjoy it more if their 
+                    children are all over 8). A common concern we get from parents is that their children will be 
+                    bored stuck on a boat for hours at a time. Surprisingly we deal with very few bored children of 
+                    any age. The areas we are rafting through are some of the most beautiful in the world, and you 
+                    never know what you might see around any corner. Not to mention the rapids which keep things 
+                    very interesting. Each boat also comes equipped with a guide. It has been proven that river 
+                    guides are unable to go for very long at all without telling stories...some of which are even 
+                    true!</p>
+            <h3 class="group-3">Is whitewater rafting safe?</h3>                
+            <p class="group-p3">As with all adventure sports, there is an inherent and assumed element of risk. To help ensure 
+                    your safety, our guides are all certified in Wilderness First aid and all start with at least 
+                    3 years of rafting experience. The most common injuries are sunburns and injuries that occur 
+                    on land. Everyone on commercial rafting trips wears coast guard approved life vest or personal 
+                    flotation device (PFD). Many non swimmers go on rafting trips and have a great time. Your guide 
+                    will give you an in depth and engaging safety talk before your trip begins explaining what you 
+                    should prepare for and do in the event that you fall out of the raft.</p>
+            </div>
+        </article>
+
+        <div id="ask-question">
+            <div class="button-box">
+                <h2>Not seeing your question? Ask it here</h2>
+
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Submit Question</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div class="container">
+                        <form action="action_page.php">
+                    
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                        <label for="subject">Your Question Here</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                        <input type="submit" value="Submit">
+                    
+                        </form>
+                    </div>
+                </div>
+
+                </div>
+
+                <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function() {
+                modal.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+                }
+                </script> 
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>RiverRafting &copy; 2023 - Dylan Stephenson</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>

@@ -1,39 +1,64 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-.grid-layout {
+body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 1fr;
-    grid-gap: 40px;
-    height: 100vh;
+    grid-template-columns: repeat(3, 1fr)
+}
+header {
+    grid-column: 1/4;
+}
+#banner img {
     width: 100vw;
-} 
-h1 {
-    z-index: 1;
-    text-align: center;
-    font-size: 12em;
-    letter-spacing: .1em;
-    grid-column: 1/3;
-    grid-row: 1/2;
-    align-self: center;
+    height: 75vw;
 }
-img {
-    grid-column: 1/2;
-    grid-row: 1/3;
+main {
+    grid-column: 1/4;
+    text-align: center
 }
-#right-side {
+#time {
+    color: rgb(40, 86, 151);
+    margin-top: 1.5em;
+    margin-bottom: .2em;
+}
+article p {
+    color: rgb(128, 126, 126);
+    margin-top: 1.7em;
+    margin-bottom: 1.5em;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+footer {
     display: grid;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    background-color: lightgrey;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 15vw;
+    background-color: rgb(40, 86, 151);
+    color: white;
+    grid-column: 1/4;
 }
-p {
+#minutes {
+    text-align: center;
+    padding: 15% 0 15%;
+    padding-left: 40%;
+    padding-right: 40%;
+    border-right: 1px solid grey;
+    grid-column: 1/2;
+}
+#views {  
+    text-align: center;
+    padding: 15% 0 15%;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-right: 1px solid grey;
     grid-column: 2/3;
-    grid-row: 2/3;
-    font-size: 7em;
-    letter-spacing: .1em;
-    align-self: center;
-    color: darkred;
+  
+}
+#comments {
+    text-align: center;
+    padding: 15% 0 15%;
+    padding-left: 30%;
+    padding-right: 30%;
+    grid-column: 3/4;
+    
 }
