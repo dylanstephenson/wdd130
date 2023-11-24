@@ -66,12 +66,13 @@ nav {
   grid-row: 1/2;
   z-index: 1;
   justify-self: center; 
-  padding-top: 300px;
+  align-self: center;
+  padding-bottom: 20%;
   font-family: Urbanist;
-  font-size: 4.5em;
+  font-size: 4em;
   text-align: center;
   color: #00376e;
-  opacity: .6;
+  opacity: .5;
 }
 .contactme {
   grid-column: 2/3;
@@ -79,7 +80,7 @@ nav {
   z-index: 1;
   align-self: flex-end;
   justify-self: center;
-  padding-bottom: 50vh;
+  padding-bottom: 40%;
 }
 .contactme button{
   font-family: Urbanist;
@@ -89,7 +90,7 @@ nav {
   color: black;
   border: none;
   border-radius: 12px;
-  padding: 15px 1.5vw;
+  padding: 2vh 1.5vw;
   transition-duration: 0.4s;
   text-decoration: none;
   margin: 10px;
@@ -102,8 +103,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-color: #0080FF;
   color: white;
 }
@@ -152,6 +153,7 @@ nav {
   grid-row: 1/2;
   border-radius: 0 10px 0 0;
   text-shadow: 4px 4px 2px rgb(32, 32, 32);
+  height: 25vh;
 }
 .streaming h2 {
   padding-left: 4vw;
@@ -162,6 +164,7 @@ nav {
   grid-row: 2/4;
   background-color: rgb(61, 61, 61);
   border-radius: 0 0 10px 0;
+  height: 50vh;
 }
 
 .overlay-button button {
