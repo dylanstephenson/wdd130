@@ -4,61 +4,50 @@
 }
 body {
     display: grid;
-    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: min-content auto min-content;
+    height: 100vh;
 }
+
 header {
-    grid-column: 1/4;
+    grid-row: 1/2
 }
-#banner img {
+img {
     width: 100vw;
-    height: 75vw;
+}
+p, h1, h4 {
+    text-align: center;
+    padding: 0 9%;
 }
 main {
-    grid-column: 1/4;
-    text-align: center
+    grid-row:2/3;
+    align-self: start;
 }
 #time {
     color: rgb(40, 86, 151);
-    margin-top: 1.5em;
-    margin-bottom: .2em;
 }
 article p {
-    color: rgb(128, 126, 126);
-    margin-top: 1.7em;
-    margin-bottom: 1.5em;
-    padding-left: 30%;
-    padding-right: 30%;
+    color: #807e7e;
+    
 }
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height: 15vw;
+    grid-row: 3/4;
+    height: 75px;
     background-color: rgb(40, 86, 151);
     color: white;
-    grid-column: 1/4;
+}
+#stats {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #minutes {
-    text-align: center;
-    padding: 15% 0 15%;
-    padding-left: 40%;
-    padding-right: 40%;
     border-right: 1px solid grey;
     grid-column: 1/2;
 }
 #views {  
-    text-align: center;
-    padding: 15% 0 15%;
-    padding-left: 30%;
-    padding-right: 30%;
     border-right: 1px solid grey;
     grid-column: 2/3;
   
 }
 #comments {
-    text-align: center;
-    padding: 15% 0 15%;
-    padding-left: 30%;
-    padding-right: 30%;
     grid-column: 3/4;
-    
 }

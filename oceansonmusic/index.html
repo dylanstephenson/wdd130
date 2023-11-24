@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocean Son Music | Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div id="content">
@@ -16,45 +17,121 @@
             <a href="music-library.html">Music Library</a>
             <a href="aboutme.html">About Me</a>
         </nav>
-        <div id="contact">
+        <div id="on-spotify">
             <!-- will probably turn this into a button and a form -->
-            <h4>Contact Me</h4>
+            <a href="https://open.spotify.com/artist/5u7EmiuzTb0RIOgXb8ssmE" target="_blank">
+            <h4>Ocean Son on Spotify 
+                <img src="images/Spotify.png" alt="spotify logo">
+            </h4>
+            </a>
         </div>
     </header>
     <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="images/Ocean Sun.jpg" alt="Ocean Sun">
+            <section id="hero-msg">
+                <h1 class="page-title">
+                    Make music with Ocean Son
+                </h1>
+            </section>
+            <div class="contactme">
+                <button class="myBtn">Contact Me</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <form action="action_page.php">
+                        
+                            <label for="fname">Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        
+                            <label for="lname">Email</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+                            <label for="subject">Message</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        
+                            <input type="submit" value="Submit">
+                        
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <section id="hero-msg">
-            <h1 class="page-title">
-                Make music with Ocean Son
-            </h1>
-        </section>
     </div>
     <main class="bio-box">
         <div id="background"></div>
         <section id="bio-img">
             <img src="images/Bio Pic.png" alt="bio pic">
         </section>
+        <div id="bio-summary">
+            <h1>Dylan Stephenson</h1>
+            <p>Ocean Son Creator and Lead Producer</p>
+        </div>
         <section class="music-links">
-            <a href="https://open.spotify.com/track/5vDrl8AYalNOS4FPdtMw57?si=4c74451b18f84d32" target="_blank">No More</a>
-            <a href="https://open.spotify.com/track/62HTQqAriAzxqZl5Iq7QED?si=9eae43fb4edb42dc" target="_blank">Heartbeat</a>
-            <a href="" target="_blank">Fallin' Apart</a>
-            <!-- waiting to release fallin apart. Will be ready for final project -->
+            <div id="no-more">
+                <h1>No More--</h1>
+                <a href="https://open.spotify.com/track/5vDrl8AYalNOS4FPdtMw57?si=4c74451b18f84d32" target="_blank">Link to Song</a>
+                <div class="overlay-button">
+                    <button class="myBtn">More about the song</button>
+                    <div id="MyModal1" class="modal">
+                        <div class="modal-content">
+                            No More is the first song I wrote and fully produced through Ocean Son. A few months after going 
+                            through a difficult breakup, I had the realization that I was happier, healthier, and more confident than
+                            I had been during the relationship which lead to me writing this song. I finished the song after meeting
+                            my now wife, Ashlie. She inspired the "She's everything" moment at the beginning and end of the song. 
+                            <span class="close">&times;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="heartbeat">
+                <h1>Heartbeat--</h1>
+                <a href="https://open.spotify.com/track/62HTQqAriAzxqZl5Iq7QED?si=9eae43fb4edb42dc" target="_blank">Link to Song</a>
+                <div class="overlay-button">
+                    <button class="myBtn">More About the Song</button>
+                    <div id="myModal2" class="modal">
+                        <div class="modal-content">
+                            I wrote Heartbeat a few months after my wife and I got married. I started feeling a lot of pressure
+                            and anxiety knowing that all of my life choices would start directly affecting her. The Peter Gabriel-esque
+                            chord progression and the somber melody capture that feeling of worry and anxiety. The tonal shift in the chorus
+                            gives the feeling that even though hearing my wife's heartbeat makes me feel that pressure, having her with me is
+                            worth it.
+                            <span class="close">&times;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fallin-apart">
+                <h1>Fallin' Apart--</h1>
+                <a href="https://atrio.disco.ac/lib/9377/track/77845947" target="_blank">Link to Song</a>
+                <div class="overlay-button">
+                    <button class="myBtn">More about the song</button>
+                    <div id ="myModal3" class="modal">
+                        <div class="modal-content">
+                            Fallin' Apart was not only co-produced but also co-written alongside my brother, Beau Stephenson. We wanted to
+                            write something a little more funky than any of our previous songs. Fallin' Apart is not meant to have a deep message or poetic lyrics.
+                            Our goal writing this song was to find a good groove between the piano, bass, guitar, and drums. Syncopating the 
+                            vocals along with all of the other elements makes this song incredibly catchy and fun to listen to every time.  
+                            <span class="close">&times;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- waiting to release fallin apart. Will be ready for final project -->
         </section>
-        <section id="mini-bio">
-            <p>Ocean Son is a collaborative music project led by Dylan Stephenson. Dylan is passionate about
-                music which shows in his songwriting, arranging, instrumental tracks, and vocals. Listen to
-                the tracks below to get a feel for Ocean Son's vibrant, upbeat sound. 
-            </p>
-        </section>
+        <section class="streaming">
+            <h1>SONGS ON SPOTIFY</h1>
+        </section> 
     </main>
     <footer>
-        <p><strong>Ocean Son Music</strong></p>
+        <h1>Ocean Son Music</h1>
         <a href="site-plan.html">Site Plan</a>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="fb logo">
+            </a>
+            <a href="twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter logo">
             </a>
             <a href="https://instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="instagram logo">
@@ -65,5 +142,61 @@
         </div>
     </footer> 
     </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementsByClassName("modal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementsByClassName("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close");
+        
+        // When the user clicks the button, open the modal 
+        btn[0].onclick = function() {
+            modal[0].style.display = "block";
+        }
+
+        btn[1].onclick = function() {
+            modal[1].style.display = "block";
+        }
+        btn[2].onclick = function() {
+            modal[2].style.display = "block";
+        }
+        btn[3].onclick = function() {
+            modal[3].style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the modal
+        span[0].onclick = function() {
+            modal[0].style.display = "none";
+        }
+
+        span[1].onclick = function() {
+            modal[1].style.display = "none";
+        }
+
+        span[2].onclick = function() {
+            modal[2].style.display = "none";
+        }
+        span[3].onclick = function() {
+            modal[3].style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal[0]) {
+                modal[0].style.display = "none";
+            }
+            if (event.target == modal[1]) {
+                modal[1].style.display = "none";
+            }
+            if (event.target == modal[2]) {
+                modal[2].style.display = "none";
+            }
+            if (event.target == modal[3]) {
+                modal[3].style.display = "none";
+            }
+        }  
+    </script>
 </body>
 </html>
