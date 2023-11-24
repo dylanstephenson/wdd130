@@ -36,7 +36,7 @@ header a {
 nav {
   grid-column: 1/2;
   grid-row: 1/2;
-  margin-top: 25px;
+  margin-top: 3vh;
   display: flex;
   justify-content: space-around;
 }
@@ -45,6 +45,7 @@ nav {
   grid-row:1/2;
   font-family: bitter;
   text-align: center;
+  padding-top: 3vh;
 }
 #on-spotify a:hover {
   color: #0080FF;
