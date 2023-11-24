@@ -43,8 +43,6 @@ nav {
 #on-spotify {
   grid-column: 3/4;
   grid-row:1/2;
-  margin-top: 25px;
-  padding-right: 15px;
   font-family: bitter;
   text-align: center;
 }
@@ -154,10 +152,11 @@ nav {
   border-radius: 0 10px 0 0;
   text-shadow: 4px 4px 2px rgb(32, 32, 32);
   height: 25vh;
+  display: grid;
 }
 .streaming h2 {
-  padding-left: 4vw;
-  padding-top: 4vw;
+  align-self: center;
+  justify-self: center;
 }
 .music-links {
   grid-column: 5/10;
@@ -185,7 +184,7 @@ nav {
   display: grid;
   grid-template-columns: 15vw 1fr;
   grid-template-rows: 1fr 2fr;
-  padding: 2vh;
+  padding: 1.5vh;
 }
 #no-more, #heartbeat, #fallin-apart {
   color: #c3a7f8;
@@ -208,13 +207,13 @@ nav {
   display: grid;
   grid-template-columns: 15vw 1fr;
   grid-template-rows: 1fr 2fr;
-  padding: 2vh;
+  padding: 1.5vh;
 }
 #fallin-apart {
   display: grid;
   grid-template-columns: 15vw 1fr;
   grid-template-rows: 1fr 2fr;
-  padding: 2vh;
+  padding: 1.5vh;
 }
 #no-more a, #heartbeat a, #fallin-apart a{
   font-family: Urbanist;
