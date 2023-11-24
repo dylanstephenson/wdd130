@@ -121,7 +121,7 @@ nav {
   padding-top: 5vh;
   font-family: Urbanist;
 }
-#bio-summary h1 {
+#bio-summary h2 {
   color: #6d04b2;
 }
 #bio-summary p {
@@ -153,7 +153,7 @@ nav {
   border-radius: 0 10px 0 0;
   text-shadow: 4px 4px 2px rgb(32, 32, 32);
 }
-.streaming h1 {
+.streaming h2 {
   padding-left: 4vw;
   padding-top: 4vw;
 }
@@ -188,7 +188,7 @@ nav {
   color: #c3a7f8;
   font-family: urbanist;
 }
-#no-more h1, #heartbeat h1, #fallin-apart h1 {
+#no-more h2, #heartbeat h2, #fallin-apart h2 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
