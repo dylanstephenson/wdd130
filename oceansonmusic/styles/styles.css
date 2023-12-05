@@ -261,6 +261,7 @@ footer a {
   font-size: .8em;
   align-self: center;
   justify-self: center;
+  margin-right: 2vw;
 }
 nav a:hover, footer a:hover{
   color: #0080FF;
@@ -363,9 +364,12 @@ form label {
   display: grid; 
   grid-template-columns: 30% 1fr;
   font-weight: 900;
-  font-size: 4em;
+  font-size: 3.5em;
   color: #64b0fc;
   text-shadow: 4px 4px 2px rgb(32, 32, 32);
+  box-sizing: border-box;
+  align-content: center;
+  justify-content: center;
 }
 
 #library-header img {
@@ -374,6 +378,7 @@ form label {
   border-radius: 30px;
   border-style: solid;
   border-color: white;
+  align-self: center;
 }
 #library-header h1 {
   grid-column: 2/3;
@@ -430,6 +435,7 @@ form label {
 #Ocean-Singles h3, #Ocean-Instrumentals h3, #Collab h3, #Micro h3 {
   font-family: urbanist;
   color: white;
+  text-shadow: 2px 2px 5px black;
   font-size: 3em;
 }
 #Ocean-Singles a, #Ocean-Instrumentals a, #Collab a, #Micro a{
@@ -454,12 +460,44 @@ li {
   margin-left: 1vw;
 }
 #library-footer a {
-  margin-right: 3vw;
+  margin-right: 2vw;
 }
 .library-social {
   grid-column: 1/2;
   margin-left: 3vw;
 }
 
+/* About me styles */
 
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(to right,#0080FF, #935ef6, #c3a7f8);
+}
 
+#about-me-msg h2 {
+  color: white;
+  font-family: Urbanist;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+#about-me-msg p {
+  color: white;
+  font-family: bitter;
+  font-size: 1.2em;
+  padding: 20px;
+  padding-right: 1px;
+}
+#about-me-img {
+  justify-self: center;
+  align-self: center;
+  
+}
+#about-me-img img {
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+  box-sizing: border-box;
+}
