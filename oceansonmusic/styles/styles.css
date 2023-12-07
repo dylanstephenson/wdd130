@@ -429,7 +429,7 @@ form label {
 /* Style the tab content */
 .tabcontent {
   grid-column: 2/3;
-  padding: 0px 12px;
+  padding: 0px 15px;
   background-color: rgb(61, 61, 61);
   height: 60vh;
 }
@@ -442,7 +442,7 @@ form label {
 #Ocean-Singles a, #Ocean-Instrumentals a, #Collab a, #Micro a{
   color: #c3a7f8;
   font-family: bitter;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-decoration: none;
 }
 #Ocean-Singles a:hover, #Ocean-Instrumentals a:hover, #Collab a:hover, #Micro a:hover {
