@@ -467,6 +467,12 @@ li {
   grid-column: 1/2;
   margin-left: 3vw;
 }
+.Ocean-Logo {
+  font-family: Urbanist;
+  font-size: 1.1em;
+  font-weight: 300;
+  font-style: italic;
+}
 
 /* About me styles */
 
